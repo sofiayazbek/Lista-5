@@ -8,7 +8,10 @@
 texto = input("Digite uma frase: ") 
 
 palavras = texto.split(" ")
-print(f"Frase invertida: {palavras[::-1]}")
+palavras[::-1]
+
+for palavra in palavras:
+  print({palavra})
 
 
 
